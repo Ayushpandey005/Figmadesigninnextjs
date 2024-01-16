@@ -212,41 +212,30 @@ function Pageone() {
                         alt="Description of the image"
                     />
 
-                    {/* <form>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder='Enter Name' required />
-                        <br />
+                    <div style={{ marginTop: '30px' }}>
+                        <form style={{ maxWidth: '400px', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)' }}>
 
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder='Enter Email' required />
-                        <br />
+                            <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="name">Name:</label>
+                            <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }}
+                                type="text" id="name" name="name" placeholder="Enter Name" required />
 
-                        <label htmlFor="phone">Phone:</label>
-                        <input type="tel" id="phone" name="phone" placeholder='Enter Phone' required />
-                        <br />
+                            <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="email">Email:</label>
+                            <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }}
+                                type="email" id="email" name="email" placeholder="Enter Email" required />
 
-                        <input type="submit" value="Contact" />
-                    </form> */}
-<div style={{marginTop: '30px'}}>
-  <form style={{ maxWidth: '400px', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)' }}>
+                            <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="phone">Phone:</label>
+                            <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }}
+                                type="tel" id="phone" name="phone" placeholder="Enter Phone" required />
 
-    <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="name">Name:</label>
-    <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }}
-     type="text" id="name" name="name" placeholder="Enter Name" required />
-
-    <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="email">Email:</label>
-    <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }}
-     type="email" id="email" name="email" placeholder="Enter Email" required />
-
-    <label style={{ display: 'block', marginBottom: '8px', color: 'white' }} htmlFor="phone">Phone:</label>
-    <input style={{ width: '400px', padding: '8px', marginBottom: '16px', border: '1px solid #ccc', borderRadius: '4px', background: 'linear-gradient(to right, #434343 0%, black 100%)' }} 
-    type="tel" id="phone" name="phone" placeholder="Enter Phone" required />
-
-    <input style={{ width: '400px', padding: '8px',marginTop: '10px', background: 'linear-gradient(to right, #ff758c 0%, #ff7eb3 100%)', color: 'white', cursor: 'pointer' }} type="submit" value="Contact" />
-  </form>
-</div>
+                            <input style={{ width: '400px', padding: '8px', marginTop: '10px', background: 'linear-gradient(to right, #ff758c 0%, #ff7eb3 100%)', color: 'white', cursor: 'pointer' }} type="submit" value="Contact" />
+                        </form>
+                    </div>
 
                 </div>
+            </div>
+
+            <div style={{marginTop: '150px', marginLeft: '540px', paddingBottom: '60px'}}>
+                    <h6 style={{color:'white', fontWeight: 'bold'}}>Copyright © 2021 Micro Technologies All Right Reserved</h6>
             </div>
 
         </div>
